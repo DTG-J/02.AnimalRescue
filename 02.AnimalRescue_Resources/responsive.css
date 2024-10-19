@@ -1,5 +1,5 @@
 @media screen and (max-width: 600px){
-    element.style {
+    header nav {
         flex-direction: column;
         gap: 20px;
         flex-wrap: wrap;
@@ -13,7 +13,7 @@
     .our-dogs ul {gap: 40px;       
     }
     .our-dogs ul > li {
-        flex: 0 0 calc(50%-40px);
+        flex: 0 0 calc(50% - 40px);
     }
 
     .our-dogs ul li img {
